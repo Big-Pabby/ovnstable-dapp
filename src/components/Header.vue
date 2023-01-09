@@ -4,7 +4,7 @@
             app>
         <v-row class="ma-0 header-container fill-height" align="center">
             <div class="">
-                <img v-if="!$wu.isFull()" class="ml-n3 logo-img" :src="require('@/assets/logo_with_hat.svg')" @click="openLink('https://market.overnight.fi/')">
+                <img v-if="!$wu.isFull()" class="ml-n3 logo-img" :src="require('@/assets/logo_new.png')" @click="openLink('https://market.overnight.fi/')">
             </div>
 
             <v-spacer></v-spacer>
@@ -249,7 +249,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .progress {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
 }
 
 .app-bar {
@@ -258,7 +258,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .header-btn, .header-btn-connect {
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: none !important;
 
     font-family: 'Roboto', sans-serif !important;
@@ -268,7 +268,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: var(--secondary) !important;
 }
 

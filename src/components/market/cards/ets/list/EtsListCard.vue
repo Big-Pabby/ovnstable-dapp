@@ -424,7 +424,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 
 .button {
     height: 28px !important;
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: none !important;
 
     font-family: 'Roboto', sans-serif !important;
@@ -434,7 +434,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;

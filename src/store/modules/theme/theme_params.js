@@ -123,8 +123,8 @@ export const THEME_MODE_PARAMS = [
         name: '--links-blue',
         enabled: true,
         theme: {
-            light: '#1C95E7',
-            dark: '#1C95E7'
+            light: '#D8A425',
+            dark: '#D8A425'
         }
     },
     {
@@ -260,7 +260,7 @@ export const THEME_MODE_PARAMS = [
         enabled: true,
         theme: {
             light: '#E6F1FF',
-            dark: '#1C95E7'
+            dark: '#c68104'
         }
     },
     {

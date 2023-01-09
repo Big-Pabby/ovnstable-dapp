@@ -316,7 +316,7 @@ export default {
 
 .disconnect-wallet-btn {
     height: 36px;
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: none !important;
 
     font-family: 'Roboto', sans-serif !important;

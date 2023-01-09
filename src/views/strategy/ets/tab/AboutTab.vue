@@ -1121,12 +1121,12 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
 }
 
 .open-link-label {
-    color: #1C95E7 !important;
+    color: #c68104 !important;
     text-decoration: underline;
     cursor: pointer;
 }

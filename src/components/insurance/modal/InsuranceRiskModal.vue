@@ -245,7 +245,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .understand-btn {
-    border-radius: 2px !important;
+    border-radius: 8px !important;
 
     font-family: 'Roboto', sans-serif !important;
     text-transform: uppercase !important;

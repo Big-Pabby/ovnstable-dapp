@@ -128,7 +128,7 @@ const actions = {
                             datasets: [
                                 {
                                     fill: false,
-                                    borderColor: '#1C95E7',
+                                    borderColor: '#c68104',
                                     data: [],
                                 }
                             ]
@@ -151,7 +151,7 @@ const actions = {
                             datasets: [
                                 {
                                     fill: false,
-                                    borderColor: '#1C95E7',
+                                    borderColor: '#c68104',
                                     data: [],
                                 }
                             ]

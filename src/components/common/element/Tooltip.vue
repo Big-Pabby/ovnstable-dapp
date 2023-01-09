@@ -102,7 +102,7 @@ export default {
 <style scoped>
 
 .tooltip-container {
-    border-radius: 2px;
+    border-radius: 8px;
 }
 
 .tooltip-text {

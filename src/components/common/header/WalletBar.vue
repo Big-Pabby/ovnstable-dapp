@@ -229,7 +229,7 @@ export default {
 
 .wallet-bar-container {
     background-color: var(--secondary) !important;
-    border-radius: 2px;
+    border-radius: 8px;
     cursor: pointer !important;
 }
 

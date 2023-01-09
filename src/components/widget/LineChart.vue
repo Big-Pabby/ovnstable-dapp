@@ -143,7 +143,7 @@ export default {
                 stroke: {
                     curve: 'straight',
                     width: this.isMobile ? 1 : 2,
-                    colors: ["#1C95E7"],
+                    colors: ["#c68104"],
                 },
 
                 xaxis: {

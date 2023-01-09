@@ -24,7 +24,7 @@
                                         <v-col cols="12" class="select-col">
                                             <label class="selected-slice-label">
                                                 {{ sliceLabel }}
-                                                <v-icon color="#1C95E7" class="mb-1">
+                                                <v-icon color="#c68104" class="mb-1">
                                                     {{ openedSliceList ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
                                                 </v-icon>
                                             </label>
@@ -71,7 +71,7 @@
                                     <v-spacer></v-spacer>
                                     <label class="selected-slice-label mt-2">
                                         {{ sliceLabel }}
-                                        <v-icon color="#1C95E7" class="mb-1">
+                                        <v-icon color="#c68104" class="mb-1">
                                             {{ openedSliceList ? 'mdi-chevron-up' : 'mdi-chevron-down' }}
                                         </v-icon>
                                     </label>
@@ -1014,7 +1014,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .dashboard-action-btn {
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: none !important;
 
     font-family: 'Roboto', sans-serif !important;
@@ -1024,7 +1024,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
 }
 

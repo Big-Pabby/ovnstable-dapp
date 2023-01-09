@@ -254,9 +254,9 @@ export default {
 }
 
 .dismiss-btn {
-    background: var(--blue-gradient) !important;
+    background: var(--primary-gradient) !important;
     height: 40px;
-    border-radius: 2px;
+    border-radius: 8px;
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;

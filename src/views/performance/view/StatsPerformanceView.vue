@@ -482,7 +482,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
 }
 </style>

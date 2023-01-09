@@ -40,9 +40,9 @@
         <v-row class="mt-5">
             <v-slider
                 class="percent-slider"
-                color="#1C95E7"
+                color="#c68104"
                 track-color="var(--main-border)"
-                track-fill-color="#1C95E7"
+                track-fill-color="#c68104"
                 tick-size="10"
                 min="0"
                 max="100"
@@ -185,9 +185,9 @@
             <v-slider
                 readonly
                 class="step-slider"
-                color="#1C95E7"
+                color="#c68104"
                 track-color="var(--main-border)"
-                track-fill-color="#1C95E7"
+                track-fill-color="#c68104"
                 tick-size="10"
                 min="0"
                 max="2"
@@ -1001,7 +1001,7 @@ export default {
 }
 
 .enabled-buy {
-    background: var(--blue-gradient) !important;
+    background: var(--primary-gradient) !important;
     color: #FFFFFF !important;
 }
 
@@ -1012,7 +1012,7 @@ export default {
 
 .buy {
     width: 100% !important;
-    border-radius: 2px !important;
+    border-radius: 8px !important;
     font-family: 'Roboto', sans-serif !important;
     text-transform: uppercase !important;
     font-feature-settings: 'pnum' on, 'lnum' on !important;

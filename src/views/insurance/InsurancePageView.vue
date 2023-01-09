@@ -787,7 +787,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 }
 
 .btn-investor-invest {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
 }
 

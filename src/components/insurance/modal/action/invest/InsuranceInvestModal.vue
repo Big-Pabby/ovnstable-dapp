@@ -170,7 +170,7 @@ export default {
 .bridge-label {
     font-family: 'Roboto', sans-serif;
     font-feature-settings: 'liga' off;
-    color: #1C95E7;
+    color: #c68104;
     cursor: pointer;
 }
 

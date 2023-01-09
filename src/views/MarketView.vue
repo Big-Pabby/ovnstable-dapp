@@ -7,7 +7,7 @@
         <v-row align="start" justify="start" class="ma-0 mt-10 toggle-row">
             <label @click="tab=1" class="tab-btn mr-4" v-bind:class="activeTabFeatured">
                 Featured
-                <v-icon size="12" :color="this.tab === 1 ? '#1C95E7' : '#333333'" class="mb-1">
+                <v-icon size="12" :color="this.tab === 1 ? '#c68104' : '#333333'" class="mb-1">
                     mdi-star-circle
                 </v-icon>
             </label>

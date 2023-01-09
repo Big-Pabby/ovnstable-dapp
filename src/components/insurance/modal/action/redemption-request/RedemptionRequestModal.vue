@@ -285,12 +285,12 @@ export default {
 }
 
 .redemption-btn {
-    border-radius: 2px !important;
+    border-radius: 8px !important;
 
     font-family: 'Roboto', sans-serif !important;
     text-transform: uppercase !important;
     font-feature-settings: 'pnum' on, 'lnum' on !important;
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: white !important;
 }
 

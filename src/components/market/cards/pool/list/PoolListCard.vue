@@ -313,7 +313,7 @@ export default {
 
 .button {
     height: 28px !important;
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: none !important;
 
     font-family: 'Roboto', sans-serif !important;
@@ -323,7 +323,7 @@ export default {
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
     text-transform: uppercase;
     font-feature-settings: 'pnum' on, 'lnum' on;

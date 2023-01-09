@@ -229,7 +229,7 @@ export default {
 }
 
 .understand-btn {
-    border-radius: 2px !important;
+    border-radius: 8px !important;
 
     font-family: 'Roboto', sans-serif !important;
     text-transform: uppercase !important;

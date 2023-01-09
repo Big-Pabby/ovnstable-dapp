@@ -494,7 +494,7 @@ export default {
 }
 
 .button {
-    border-radius: 2px;
+    border-radius: 8px;
     box-shadow: none !important;
     width: 100% !important;
 
@@ -505,7 +505,7 @@ export default {
 }
 
 .btn-filled {
-    background: var(--blue-gradient);
+    background: var(--primary-gradient);
     color: #FFFFFF !important;
 }
 
