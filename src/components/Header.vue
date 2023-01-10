@@ -4,7 +4,7 @@
             app>
         <v-row class="ma-0 header-container fill-height" align="center">
             <div class="">
-                <img v-if="!$wu.isFull()" class="ml-n3 logo-img" :src="require('@/assets/logo_new.png')" @click="openLink('https://market.overnight.fi/')">
+                <img v-if="!$wu.isFull()" class="ml-n3 logo-img" :src="require('@/assets/logo_new.png')">
             </div>
 
             <v-spacer></v-spacer>
