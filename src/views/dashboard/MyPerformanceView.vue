@@ -1,10 +1,10 @@
 <template>
-    <div>
-        <div class="mt-10">
-            <label class="title-label">My dashboard</label>
+    <div class="mt-10">
+        <div class="mx-auto">
+            <label class="title-label text-center">My dashboard</label>
 
             <v-row align="start" justify="start" class="ma-0">
-                <v-col :cols="$wu.isFull() ? 9 : 12" class="ma-n3">
+                <v-col :cols="$wu.isFull() ? 9 : 12" class="mx-auto">
                     <v-row align="center" justify="start" class="ma-0 toggle-row mt-10">
 
                         <label class="tab-btn tab-btn-disabled mr-4" v-bind:class="activeTabOverall" disabled>Overall</label>
@@ -59,7 +59,7 @@
             </v-row>
 
             <v-row v-if="!$wu.isFull()" align="start" justify="start" class="ma-0 mt-3">
-                <v-col cols="12" class="ma-n3">
+                <v-col cols="12" class="mx-auto">
                     <v-menu offset-y>
                         <template v-slot:activator="{ on, attrs }">
                             <div class="slice-select-main-container"
@@ -106,7 +106,7 @@
 
         <div>
             <v-row align="start" justify="start" class="page-container ma-0">
-                <v-col :cols="$wu.isFull() ? 9 : 12" class="ma-n3">
+                <v-col :cols="$wu.isFull() ? 9 : 12" class="mx-auto">
                     <v-row class="ma-0 info-card-container" :class="$wu.isFull() ? 'mt-6' : 'mt-3'">
                         <v-col class="info-card-body-bottom">
                             <v-row align="center" justify="start" class="ma-0">
@@ -281,11 +281,11 @@
                     </v-row>
                 </v-col>
 
-                <v-col :cols="$wu.isFull() ? 3 : 12">
-                    <div :class="$wu.isFull() ? 'sticky' : ''">
-                        <v-row align="center" justify="start" class="ma-0 mt-3 info-card-container"
+                <v-col :cols="$wu.isFull() ? 3 : 12" class="mx-auto">
+                    <div :class="$wu.isFull() ? 'sticky' : ''" class="article">
+                        <v-row align="center" justify="start" class="mx-auto mt-3 info-card-container"
                                :class="$wu.isFull() ? '' : 'mr-3 ml-n3'">
-                            <v-col class="info-card-body-bottom">
+                            <v-col class="info-card-body-bottom mx-auto">
                                 <v-row align="start" justify="start" class="ma-0">
                                     <label class="useful-title">Useful articles</label>
                                 </v-row>
@@ -320,9 +320,9 @@
                             </v-col>
                         </v-row>
 
-                        <v-row align="center" justify="start" class="ma-0 mt-3 info-card-container"
+                        <v-row align="center" justify="start" class="mx-auto mt-3 info-card-container"
                                :class="$wu.isFull() ? '' : 'mr-3 ml-n3'">
-                            <v-col class="info-card-body-bottom">
+                            <v-col class="info-card-body-bottom mx-auto">
                                 <v-row align="start" justify="start" class="ma-0">
                                     <label class="useful-title">Video tutorials</label>
                                 </v-row>
@@ -347,11 +347,11 @@
 <script>
 
 import Table from "@/components/dashboard/Table";
-import Doughnut from "@/components/market/strategy/payouts/Doughnut";
+// import Doughnut from "@/components/market/strategy/payouts/Doughnut";
 import {mapActions, mapGetters, mapMutations} from "vuex";
-import LineChartApy from "@/components/stats/widget/LineChartApy";
-import LineChartTvl from "@/components/stats/widget/LineChartTvl";
-import DashboardWidget from "@/components/dashboard/DashboardWidget";
+// import LineChartApy from "@/components/stats/widget/LineChartApy";
+// import LineChartTvl from "@/components/stats/widget/LineChartTvl";
+// import DashboardWidget from "@/components/dashboard/DashboardWidget";
 import LineChart from "@/components/widget/LineChart";
 
 export default {
@@ -359,10 +359,10 @@ export default {
 
     components: {
         LineChart,
-        DashboardWidget,
-        LineChartTvl,
-        LineChartApy,
-        Doughnut,
+        // DashboardWidget,
+        // LineChartTvl,
+        // LineChartApy,
+        // Doughnut,
         Table,
     },
 
@@ -483,9 +483,15 @@ export default {
         line-height: 20px;
     }
 
+    .container {
+        width: 95%;
+        margin: auto;
+    }
+
     .title-label {
         font-style: normal;
         font-weight: 300;
+        text-align: center;
         font-size: 32px;
         line-height: 40px;
     }
@@ -508,6 +514,10 @@ export default {
 
     .slice-select-list-item {
         font-size: 14px;
+    }
+
+    .article {
+        flex-direction: column;
     }
 
     .coin-img {
@@ -593,6 +603,7 @@ export default {
         font-weight: 300;
         font-size: 54px;
         line-height: 60px;
+        text-align: center;
     }
 
     .slice-select-main-container {
@@ -704,6 +715,7 @@ export default {
         font-weight: 300;
         font-size: 54px;
         line-height: 60px;
+        text-align: center;
     }
 
     .slice-select-container {
@@ -814,6 +826,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     .title-label {
         font-style: normal;
         font-weight: 300;
+        text-align: center;
         font-size: 48px;
         line-height: 60px;
     }
@@ -921,6 +934,11 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     cursor: pointer;
 }
 
+.container {
+    width: 85%;
+    margin: 10px auto
+}
+
 .toggle-row {
     border-bottom: 2px solid var(--main-border);
 }
@@ -928,6 +946,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 .title-label {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
+    text-align: center;
     font-feature-settings: 'pnum' on, 'lnum' on;
     color: var(--main-gray-text);
 }
@@ -1013,6 +1032,11 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
     color: var(--third-gray-text) !important;
 }
 
+.article {
+    display: flex;
+    gap: 30px;
+}
+
 .dashboard-action-btn {
     border-radius: 8px;
     box-shadow: none !important;
@@ -1030,6 +1054,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 1300px)
 
 .btn-outlined {
     color: var(--links-blue) !important;
+    margin: 20px 0;
 }
 
 .scroll-container {

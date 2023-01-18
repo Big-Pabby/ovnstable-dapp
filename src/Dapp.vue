@@ -92,24 +92,24 @@ export default {
 /* mobile */
 @media only screen and (max-width: 960px) {
     .main-container {
-        margin-left: 3% !important;
-        margin-right: 3% !important;
+        width: 95%;
+        margin: auto;
     }
 }
 
 /* tablet */
 @media only screen and (min-width: 960px) and (max-width: 1400px) {
     .main-container {
-        margin-left: 3% !important;
-        margin-right: 3% !important;
+        width: 95%;
+        margin: auto;
     }
 }
 
 /* full */
 @media only screen and (min-width: 1400px) {
     .main-container {
-        margin-left: 5% !important;
-        margin-right: 5% !important;
+        width: 90%;
+        margin: auto;
     }
 }
 
@@ -122,8 +122,8 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 1300px)
 only screen and (                min-resolution: 192dpi) and (min-width: 1300px),
 only screen and (                min-resolution: 2dppx)  and (min-width: 1300px) {
     .main-container {
-        margin-left: 3% !important;
-        margin-right: 3% !important;
+        width: 95%;
+        margin: auto;
     }
 }
 </style>
